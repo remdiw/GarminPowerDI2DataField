@@ -1,8 +1,0 @@
-<strings>
-    <string id="AppName">Power+DI2 Data Field</string>
-    <string id="LblPowerAvg">Avg Power</string>
-    <string id="LblPower3s">Power 3s</string>
-    <string id="LblRear">Rear</string>
-    <string id="LblSpeed">Speed</string>
-    <string id="LblTimer">Timer</string>
-</strings>
