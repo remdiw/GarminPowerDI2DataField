@@ -12,7 +12,6 @@ class PowerDI2DataFieldView extends Ui.DataField {
 
     function initialize() {
         DataField.initialize();
-        //mValue = 0.0f;
         fields = new PowerDi2DataFiels();
         lblPowerAvg = Ui.loadResource( Rez.Strings.LblPowerAvg );
         lblPower3s = Ui.loadResource( Rez.Strings.LblPower3s );
