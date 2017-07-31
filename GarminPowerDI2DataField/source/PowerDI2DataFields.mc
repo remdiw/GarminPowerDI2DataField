@@ -49,7 +49,7 @@ class PowerDi2DataFiels {
         power3sStr = power3s!=null ? power3s.format("%1d") : "---";
 		rearStr = info.rearDerailleurIndex!=null ? info.rearDerailleurIndex.toString() : "-";
 		currentSpeedStr = info.currentSpeed!=null ? (Math.round(info.currentSpeed*3600/1000*10)/10).format("%1.1f") : "-.-";
-		timer = info.elapsedTime != null ? info.elapsedTime/1000 : null;
+		timer = info.timerTime != null ? info.timerTime /1000 : null;
 		timerStr = timer!=null ? Lang.format("$1$:$2$:$3$",[(timer / 3600) % 24,((timer / 60) % 60).format("%02d"),(timer % 60).format("%02d")]) : "--:--:--";
     }    		
 }
